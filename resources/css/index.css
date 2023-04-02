@@ -1,0 +1,30 @@
+* {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    color: indianred;
+    font-family: JetBrains Mono;
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+body {
+    background-color: #171717;
+    position: relative;
+    top: 150px;
+}
+
+p,
+li,
+h3 {
+    color: lightgray;
+    margin: 15 auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
