@@ -1,0 +1,78 @@
+:root {
+    --cherry: #DF4661;
+    --purple: #BA99C4;
+    --bg: #171717;
+}
+
+/* ELEMENTS */
+
+* {
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    color: var(--cherry);
+    font-family: JetBrains Mono;
+    font-size: 50px;
+}
+
+h2 {
+    color: var(--cherry);
+    font-family: JetBrains Mono;
+    font-size: 30px;
+}
+
+body {
+    background-color: var(--bg);
+    margin: 150px auto 0;
+    max-width: 80%;
+    min-width: 400px;
+    overflow: hidden;
+}
+
+p,
+li {
+    color: lightgray;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+p>a {
+    text-decoration: none;
+    color: var(--purple);
+}
+
+/* CLASSES */
+
+.container {
+    box-sizing: content-box;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 5px;
+}
+
+/* IDS */
+
+#bio {
+    margin-bottom: 50px;
+}
+
+#project img {
+    max-width: 300px;
+    width: 100%;
+    border: 2px solid var(--cherry);
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<head>
+  <title>JStype</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Geologica:wght@300&family=Quicksand&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Geologica:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="scripts/main.js"></script>
+  <script src="scripts/words.js"></script>
+</head>
+
+<body>
+  <!--SCORE CONTAINER-->
+  <div class="container">
+    <div class="text" id="score">
+      0
+    </div>
+  </div>
+  <!--WORD ROW-->
+  <div class="container">
+    <div class="text" id="prev">
+      <a href="javascript:void(0)"></a>
+    </div>
+    <div class="text" id="current">
+      <a href="javascript:void(0)"></a>
+    </div>
+    <div class="text" id="next">
+      <a href="javascript:void(0)"></a>
+    </div>
+  </div>
+  <!--INPUT CONTAINER-->
+  <div class="container">
+    <textarea class="text" id="input" placeholder="click here" oninput="update()" onclick="start()" autocorrect="off"
+      rows="1"></textarea>
+  </div>
+
+  <footer class="container">
+    <h3 class="text" id="footer">by <span id="cherry">cherry</span></h3>
+  </footer>
+</body>
